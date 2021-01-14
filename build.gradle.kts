@@ -15,6 +15,8 @@ repositories {
 dependencies {
     testImplementation("io.cucumber:cucumber-java8:6.8.1")
     testImplementation("io.cucumber:cucumber-junit:6.8.1")
+    testImplementation("junit:junit:4.12")
+    implementation("org.seleniumhq.selenium:selenium-java:3.141.59")
 }
 
 
