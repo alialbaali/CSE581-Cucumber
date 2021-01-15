@@ -1,3 +1,4 @@
+@Login
 Feature: Login functionality
   As a standard user of Saucedemo
   I want to login
@@ -10,4 +11,4 @@ Feature: Login functionality
     Examples:
       | username        | password     | status  |
       | standard_user   | secret_sauce | success |
-      | locked_out_user | secret_sauce | failure |
+#      | locked_out_user | secret_sauce | failure |

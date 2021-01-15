@@ -1,3 +1,4 @@
+@SelectItem
 Feature: Select First Item
 
   Background: User is already Logged in
